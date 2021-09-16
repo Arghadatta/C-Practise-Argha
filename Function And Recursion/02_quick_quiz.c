@@ -6,7 +6,7 @@ void GoodNight();
 
 int main()
 {
-    printf("Initializing GoodMorning,GoodAfternoon And GoodNight functions--\n");
+    printf("Initializing GoodMorning , GoodAfternoon And GoodNight functions--\n");
     GoodMorning();
     GoodAfternoon();
     GoodNight();
