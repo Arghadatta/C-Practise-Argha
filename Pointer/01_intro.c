@@ -9,3 +9,4 @@ int main()
     printf("The address of j is %d\n", *(&j));
     return 0;
 }
+//POINTERSSSSSS
