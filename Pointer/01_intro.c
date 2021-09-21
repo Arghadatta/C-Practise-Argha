@@ -8,4 +8,9 @@ int main()
     printf("The value of a is %d\n", *j);
     printf("The address of j is %d\n", *(&j));
     return 0;
+<<<<<<< HEAD
 }
+=======
+}
+//GIT MERGED COPY
+>>>>>>> pointer
