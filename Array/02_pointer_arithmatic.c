@@ -2,15 +2,11 @@
 
 int main()
 {
-    int a = 20;
+    int a = 10;
     int *ptr = &a;
+    printf("Address is %u\n", ptr);
+    ptr +=3 ; // or ptr++
+    printf("Address is %u\n", ptr);
 
-    printf("The Value of Ptr is %u\n", ptr);
-    // ptr++;
-    // ptr--;
-    // ptr++;
-    // ptr++;
-    // ptr++;
-    printf("The Value of Ptr After Increment is %u\n", ptr);
     return 0;
 }
