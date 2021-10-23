@@ -14,17 +14,15 @@ int main()
         }
         
     }
+    int *ptr = &arr2d;
 
-    printf("{");
     for (int r = 0; r < row; r++)
     {   
         for (int c = 0; c < column; c++)
         {   
-            printf("Value of %d row %d column is %d\n",r+1,c+1,arr2d[r][c]);
+            printf("Value of %d row %d column is %d\n",r+1,c+1,*ptr++);
         }
-
-    //printf("}");
-        
     }
     return 0;
+
 }
