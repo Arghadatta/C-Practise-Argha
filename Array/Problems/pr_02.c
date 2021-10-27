@@ -3,7 +3,6 @@
 int main()
 {
     int array_mt[10];
-    int *ptr_array = array_mt; 
     for (int i = 0; i < 10; i++)
     {
         array_mt[i] = 5 * (i+1);

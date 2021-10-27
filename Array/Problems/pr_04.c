@@ -3,10 +3,11 @@
 int main()
 {
     int size;
-    int array[100];
-
     printf("Enter the max size of array : ");
     scanf("%d", &size);
+
+    int array[size];
+
 
     for (int i = 0; i < size; i++)
     {
