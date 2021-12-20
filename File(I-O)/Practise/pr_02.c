@@ -3,9 +3,9 @@
 int main()
 {
 
-    int input;
+    long long int input;
     printf("Enter number: ");
-    scanf("%d",&input);
+    scanf("%lld",&input);
 
 
 
@@ -14,7 +14,7 @@ int main()
 
     for (int i = 0; i < 10; i++)
     {
-        fprintf(ptr,"%d X %d = %d\n",input,i+1,input*(i+1));
+        fprintf(ptr,"%lld X %d = %lld\n",input,i+1,input*(i+1));
     }
     fclose(ptr);
     return 0;
